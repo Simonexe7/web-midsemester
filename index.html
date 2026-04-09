@@ -34,12 +34,101 @@
           <input class="w-72 h-10 bg-slate-200 rounded-full border-2 border-slate-400 flex items-center justify-center p-6" placeholder="Search......."></input>
         </div>
       </header>
+
     <!-- Content -->
-       <main class="flex-1 p-6">
-        <div class="w-full h-full bg-white rounded-2xl shadow flex items-center justify-center text-gray-400 text-lg">
-          Tidak ada konten
-        </div>
-      </main>
+       <main class="flex-1 p-6 space-y-6 overflow-y-auto">
+          
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white border border-gray-200 rounded-2xl p-4 flex justify-between items-start shadow-sm">
+              <div>
+                <p class="text-sm text-gray-500">Total Staff</p>
+                <p class="text-3xl font-bold mt-2">150</p>
+                <p class="text-sm text-green-500 mt-2">+2.5% dari kemarin</p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white border border-gray-200 rounded-2xl p-4 flex justify-between items-start shadow-sm">
+              <div>
+                <p class="text-sm text-gray-500">Total Vacancies</p>
+                <p class="text-3xl font-bold mt-2">25</p>
+                <p class="text-sm text-blue-500 mt-2">+8% dari kemarin</p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white border border-gray-200 rounded-2xl p-4 flex justify-between items-start shadow-sm">
+              <div>
+                <p class="text-sm text-gray-500">Total Employees</p>
+                <p class="text-3xl font-bold mt-2">120</p>
+                <p class="text-sm text-red-500 mt-2">3 perlu update</p>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white border border-gray-200 rounded-2xl p-4 flex justify-between items-start shadow-sm">
+              <div>
+                <p class="text-sm text-gray-500">Rata-rata Kehadiran</p>
+                <p class="text-3xl font-bold mt-2">92%</p>
+                <p class="text-sm text-purple-500 mt-2">+5% dari bulan lalu</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity Log -->
+          <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+            <h2 class="text-lg font-semibold mb-4">Log Aktivitas</h2>
+
+            <div class="space-y-4">
+
+              <!-- Item 1 -->
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                <div>
+                  <p class="text-sm text-gray-700">
+                    Admin menambahkan karyawan baru
+                  </p>
+                  <p class="text-xs text-gray-400">5 menit yang lalu</p>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                <div>
+                  <p class="text-sm text-gray-700">
+                    Data kehadiran diperbarui
+                  </p>
+                  <p class="text-xs text-gray-400">30 menit yang lalu</p>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                <div>
+                  <p class="text-sm text-gray-700">
+                    3 data karyawan perlu update
+                  </p>
+                  <p class="text-xs text-gray-400">1 jam yang lalu</p>
+                </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-purple-500 rounded-full mt-2"></div>
+                <div>
+                  <p class="text-sm text-gray-700">
+                    Laporan bulanan berhasil dibuat
+                  </p>
+                  <p class="text-xs text-gray-400">Kemarin</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+       </main>
 
       <!-- FOOTER -->
       <footer class="p-4 text-center text-gray-400 text-sm">
